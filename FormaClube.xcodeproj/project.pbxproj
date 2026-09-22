@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010B4B2DA2B57A43317AC100 /* SpotScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB00FAB48B76D898781F4A1 /* SpotScreen.swift */; };
+		01D98FEDEA7D23B24BDF9B51 /* DoorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C098C03E5BD35C8C5773A77A /* DoorScreen.swift */; };
+		0656F3E37B1BBD9289785065 /* CriticalPathSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA6FEECFDD011A0B33F871 /* CriticalPathSmokeTests.swift */; };
+		08FCCEECEF4027D8B982207B /* Rows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF34EB182308AFB8EB1E105 /* Rows.swift */; };
+		093E2AD12FEE49E50680B05B /* VehicleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462F756E44F07690D8A4E246 /* VehicleScreen.swift */; };
+		0AD55D845AEBA20AB2E9C662 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0F288E3C17D18C4861D49 /* AppBackground.swift */; };
+		17176F4FDCAD5F00851787EE /* CompareScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3C8287FCFED21186E66E5 /* CompareScreen.swift */; };
+		186FE9130C216D15877CE54F /* MasonryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF41C817BC64638E8D1D92D /* MasonryGrid.swift */; };
+		2E34322EB4A3BA184FEA4CFA /* ModuleCheckScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52C90355E3C2A9FECFDBF9 /* ModuleCheckScreen.swift */; };
+		36E629D0D981E5E567E0BBE4 /* ExportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615FF8E56D6CCFEA65DCF5BE /* ExportScreen.swift */; };
+		3D13C963AEF6956C8680D233 /* TurnScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A3F3B857A51DA67050A75 /* TurnScreen.swift */; };
+		3F040BC645A57135924B5B90 /* RouteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B5704E6EA7E062CB97D978 /* RouteScreen.swift */; };
+		4280AD8429F877D1E0D0438D /* Legal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A145EB3DB18CEF9779B645E0 /* Legal.swift */; };
+		49FAA9AE80140B84CE878583 /* FormsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD77E7DF81CDF489A95E443 /* FormsScreen.swift */; };
+		53017E6E15DBF78EB6A4CE99 /* SectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F60E38F57DB1A5F7F4C318 /* SectionCard.swift */; };
+		5A441924B5D788200EDC9B5D /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6003E9F2F2DBFBB2495C9784 /* FilterChip.swift */; };
+		5ADE81F75DAF2B33BE08D2FA /* StopDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B89C6E4974D2A5C2E079D5 /* StopDetailScreen.swift */; };
+		5AEB3308F8E1EDD46845B38D /* CargoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D98C2DFFB2F03F665ADF9D /* CargoScreen.swift */; };
+		5E31115A8F447BA9E84DEC54 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6BAF46EE75612A0B1B5ECC /* RootView.swift */; };
+		5FE3E9A41CCA39FF1D3E3F41 /* FieldReadout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4D34B5A0098545FCEF916B /* FieldReadout.swift */; };
+		6289F48C532FCABE8AE9E3AC /* EmptyStateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBECE9C9A0A6607D0A4D9FC /* EmptyStateCard.swift */; };
+		62C8C24DABFA2A48570EBB5D /* FitQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F910057D2D52BE4761D8E0 /* FitQuestions.swift */; };
+		6A9C4B5D5532BF22FFA8A51B /* LoadPlanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477BED16096A99C79F10D83 /* LoadPlanScreen.swift */; };
+		721331B0110659F8A04DC22C /* FitHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6776EF3645D6F11FBF2BB /* FitHandling.swift */; };
+		7A901A835FE915624B6B955A /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88773630681C45BFE21D5816 /* AppTheme.swift */; };
+		7BC0FF2C60E2CF7C0829213E /* FitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E187E16902BA4E393C297A70 /* FitStore.swift */; };
+		7D52FC6EAF7CF5E668EB62DC /* FitSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E6964B517AE855016AB884 /* FitSeed.swift */; };
+		7E069D954D5598732C70830A /* InputControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9EAE118AECF79A78C2C0DD /* InputControls.swift */; };
+		873E81635F2CD28597EEA16A /* PiecesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E14399467471D121AB09CC /* PiecesScreen.swift */; };
+		878D56B9C06DA2A91E6A2034 /* CTAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4063FAD98826C7F94A32FF /* CTAButton.swift */; };
+		8FDC6FB8422D7AECAD68DE73 /* FitEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3CB176010B6E9B8273961 /* FitEngine.swift */; };
+		90806ED511AD275A14E32569 /* StopsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006C98A583893D45E6B8AD08 /* StopsScreen.swift */; };
+		93ED174C3A9DDA6698BED47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49C756E120384CFB217A85A /* Assets.xcassets */; };
+		9BBD8E19310ACC82DE6DF752 /* ScreenScaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79035CC1F790B3A02CFBC11C /* ScreenScaffold.swift */; };
+		9EBF976D6DAEAE8048B0749E /* SmokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FAD358A654B5E1BA7AF9D /* SmokeUITests.swift */; };
+		A05E4778DC62FC7D4F626962 /* FitTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC37CC7EC594F69F2AB7753 /* FitTypes.swift */; };
+		A1EA5A967AE689B6492E48E6 /* MetricTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A0B395FEF41CCF51DB390 /* MetricTile.swift */; };
+		A553C58CF2646C73075F96B7 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF63110F76AFE3A1950F1C5 /* OnboardingScreen.swift */; };
+		B7A37A3E7DB076790C7E2AE9 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897375326AABAE5F2A4DBEA6 /* ParallaxHeader.swift */; };
+		B7D0FC384D4986FE4B44C1C9 /* HandlingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCF3ED5DF647459A8B36933 /* HandlingScreen.swift */; };
+		C5750B159AC84162DBE0CC7A /* SafariPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319475CB377134F7A1E3ECE /* SafariPage.swift */; };
+		C9D1FA110862F37DCECB007C /* FitAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8FD74A4E91312F9CD5BA69 /* FitAssembly.swift */; };
+		CF416E4EDFB643DC9ED63962 /* FitCarry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1732E6BA4E934AAD5250BDD /* FitCarry.swift */; };
+		D3D206D19D90918DE52BEA63 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB5FB436FE45FB0652D37F /* ResultCard.swift */; };
+		D55F6773D64A850E0DDB18A5 /* FitMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208B0167B3E1E39FACCF9E63 /* FitMatrix.swift */; };
+		D70203FC35C9E55232776AE0 /* FormaClubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6240423FC03E884D99CC24F /* FormaClubeApp.swift */; };
+		E02BED453FED438242773769 /* MotionChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1A7CBF420B5EB8FCB1767 /* MotionChrome.swift */; };
+		E61A5EEA106985EF55BECEFF /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12D8074CC3F0824EF13D0B /* Metrics.swift */; };
+		E8F178E5F70A7B84D35CB245 /* StairScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1CB05A609A09986A45E7C /* StairScreen.swift */; };
+		E9734EB9270748F91FC47228 /* FitWorksheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D56111D3B76289D5BF543 /* FitWorksheets.swift */; };
+		FBAE45A237A3233674498A08 /* FitPacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DDA1C62DA81C7A52D5EF31 /* FitPacker.swift */; };
+		FDC090572E3CF748998E3151 /* OnboardingPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903A974119E484E74A935DB /* OnboardingPager.swift */; };
+		FE15C8EFB595244104C12907 /* PieceDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70964E3863A45175E93747 /* PieceDetailScreen.swift */; };
+		FF6FE19467C3EA365538ED78 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C915AE80276A8B346693C891 /* SettingsScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2085A295698DE57E466908AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B451640D1ED497EB140F00E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680D9624EF027DE66431DDC8;
+			remoteInfo = FormaClube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006C98A583893D45E6B8AD08 /* StopsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsScreen.swift; sourceTree = "<group>"; };
+		0319475CB377134F7A1E3ECE /* SafariPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariPage.swift; sourceTree = "<group>"; };
+		0CF41C817BC64638E8D1D92D /* MasonryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonryGrid.swift; sourceTree = "<group>"; };
+		0D12D8074CC3F0824EF13D0B /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		0DB00FAB48B76D898781F4A1 /* SpotScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotScreen.swift; sourceTree = "<group>"; };
+		0FBA6FEECFDD011A0B33F871 /* CriticalPathSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalPathSmokeTests.swift; sourceTree = "<group>"; };
+		11B5704E6EA7E062CB97D978 /* RouteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteScreen.swift; sourceTree = "<group>"; };
+		16E6964B517AE855016AB884 /* FitSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitSeed.swift; sourceTree = "<group>"; };
+		17D98C2DFFB2F03F665ADF9D /* CargoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoScreen.swift; sourceTree = "<group>"; };
+		1AC3CB176010B6E9B8273961 /* FitEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitEngine.swift; sourceTree = "<group>"; };
+		1FC0F288E3C17D18C4861D49 /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		208B0167B3E1E39FACCF9E63 /* FitMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitMatrix.swift; sourceTree = "<group>"; };
+		270D56111D3B76289D5BF543 /* FitWorksheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitWorksheets.swift; sourceTree = "<group>"; };
+		294FAD358A654B5E1BA7AF9D /* SmokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeUITests.swift; sourceTree = "<group>"; };
+		2AF63110F76AFE3A1950F1C5 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		3477BED16096A99C79F10D83 /* LoadPlanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPlanScreen.swift; sourceTree = "<group>"; };
+		3D52C90355E3C2A9FECFDBF9 /* ModuleCheckScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCheckScreen.swift; sourceTree = "<group>"; };
+		462F756E44F07690D8A4E246 /* VehicleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleScreen.swift; sourceTree = "<group>"; };
+		4A6BAF46EE75612A0B1B5ECC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		57F910057D2D52BE4761D8E0 /* FitQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitQuestions.swift; sourceTree = "<group>"; };
+		6003E9F2F2DBFBB2495C9784 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+		615FF8E56D6CCFEA65DCF5BE /* ExportScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportScreen.swift; sourceTree = "<group>"; };
+		64158B2F28C30BF4971B8B1E /* FormaClubeUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FormaClubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BB5FB436FE45FB0652D37F /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+		6FF34EB182308AFB8EB1E105 /* Rows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rows.swift; sourceTree = "<group>"; };
+		71B89C6E4974D2A5C2E079D5 /* StopDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopDetailScreen.swift; sourceTree = "<group>"; };
+		79035CC1F790B3A02CFBC11C /* ScreenScaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenScaffold.swift; sourceTree = "<group>"; };
+		7D0BE45374D69D3690836DC3 /* FormaClube.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FormaClube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E14399467471D121AB09CC /* PiecesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiecesScreen.swift; sourceTree = "<group>"; };
+		85F60E38F57DB1A5F7F4C318 /* SectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCard.swift; sourceTree = "<group>"; };
+		88773630681C45BFE21D5816 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		897375326AABAE5F2A4DBEA6 /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		8A8FD74A4E91312F9CD5BA69 /* FitAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitAssembly.swift; sourceTree = "<group>"; };
+		8C70964E3863A45175E93747 /* PieceDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceDetailScreen.swift; sourceTree = "<group>"; };
+		95F3C8287FCFED21186E66E5 /* CompareScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareScreen.swift; sourceTree = "<group>"; };
+		983A0B395FEF41CCF51DB390 /* MetricTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricTile.swift; sourceTree = "<group>"; };
+		A145EB3DB18CEF9779B645E0 /* Legal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legal.swift; sourceTree = "<group>"; };
+		B49C756E120384CFB217A85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBD77E7DF81CDF489A95E443 /* FormsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsScreen.swift; sourceTree = "<group>"; };
+		BCBECE9C9A0A6607D0A4D9FC /* EmptyStateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateCard.swift; sourceTree = "<group>"; };
+		C098C03E5BD35C8C5773A77A /* DoorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorScreen.swift; sourceTree = "<group>"; };
+		C1732E6BA4E934AAD5250BDD /* FitCarry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCarry.swift; sourceTree = "<group>"; };
+		C915AE80276A8B346693C891 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		CEC37CC7EC594F69F2AB7753 /* FitTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTypes.swift; sourceTree = "<group>"; };
+		DC4063FAD98826C7F94A32FF /* CTAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButton.swift; sourceTree = "<group>"; };
+		DDCF3ED5DF647459A8B36933 /* HandlingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlingScreen.swift; sourceTree = "<group>"; };
+		E0E1CB05A609A09986A45E7C /* StairScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairScreen.swift; sourceTree = "<group>"; };
+		E187E16902BA4E393C297A70 /* FitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStore.swift; sourceTree = "<group>"; };
+		E6240423FC03E884D99CC24F /* FormaClubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormaClubeApp.swift; sourceTree = "<group>"; };
+		E903A974119E484E74A935DB /* OnboardingPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPager.swift; sourceTree = "<group>"; };
+		EA4D34B5A0098545FCEF916B /* FieldReadout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldReadout.swift; sourceTree = "<group>"; };
+		ECC1A7CBF420B5EB8FCB1767 /* MotionChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionChrome.swift; sourceTree = "<group>"; };
+		EE9EAE118AECF79A78C2C0DD /* InputControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputControls.swift; sourceTree = "<group>"; };
+		F4C6776EF3645D6F11FBF2BB /* FitHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHandling.swift; sourceTree = "<group>"; };
+		F72A3F3B857A51DA67050A75 /* TurnScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnScreen.swift; sourceTree = "<group>"; };
+		F9DDA1C62DA81C7A52D5EF31 /* FitPacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitPacker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1203F7459CB81406AEBBD2BD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A60A60ADD3BC00514ED77B11 /* Cargo */,
+				B525989D63C5C4BE899B8948 /* Check */,
+				D56687EF1B4D6588347B7EC5 /* Compare */,
+				897D85DC0C9F7356BB53577A /* Door */,
+				EAB97350AF528BDE3D925E7C /* Export */,
+				179845853639E8B5C9522499 /* Forms */,
+				69C77618FE7E16BB693973C6 /* Handling */,
+				15E09859DE3281F9AEA56660 /* Load */,
+				F5090A9982A32E87B1DD85B6 /* Onboarding */,
+				BCDB2625F637700A389CC3BB /* Pieces */,
+				E4366FACB6E8F1316BB2AE37 /* Route */,
+				A425782206DF4FE845D7FDDF /* Settings */,
+				78214B6979E0A4AD052A834D /* Spot */,
+				C741F21A67C9795E8714095D /* Stair */,
+				3BBAE7FC625B567722B7132C /* Stops */,
+				16285570BAD80E86B12F3392 /* Turn */,
+				69AE2B9E5D19037DC83D18AA /* Vehicle */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		15E09859DE3281F9AEA56660 /* Load */ = {
+			isa = PBXGroup;
+			children = (
+				3477BED16096A99C79F10D83 /* LoadPlanScreen.swift */,
+			);
+			path = Load;
+			sourceTree = "<group>";
+		};
+		16285570BAD80E86B12F3392 /* Turn */ = {
+			isa = PBXGroup;
+			children = (
+				F72A3F3B857A51DA67050A75 /* TurnScreen.swift */,
+			);
+			path = Turn;
+			sourceTree = "<group>";
+		};
+		179845853639E8B5C9522499 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				BBD77E7DF81CDF489A95E443 /* FormsScreen.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		247BD0E1EC75B9AE2890FE34 /* Kernel */ = {
+			isa = PBXGroup;
+			children = (
+				8A8FD74A4E91312F9CD5BA69 /* FitAssembly.swift */,
+				C1732E6BA4E934AAD5250BDD /* FitCarry.swift */,
+				1AC3CB176010B6E9B8273961 /* FitEngine.swift */,
+				F4C6776EF3645D6F11FBF2BB /* FitHandling.swift */,
+				208B0167B3E1E39FACCF9E63 /* FitMatrix.swift */,
+				F9DDA1C62DA81C7A52D5EF31 /* FitPacker.swift */,
+				57F910057D2D52BE4761D8E0 /* FitQuestions.swift */,
+				16E6964B517AE855016AB884 /* FitSeed.swift */,
+				E187E16902BA4E393C297A70 /* FitStore.swift */,
+				CEC37CC7EC594F69F2AB7753 /* FitTypes.swift */,
+				270D56111D3B76289D5BF543 /* FitWorksheets.swift */,
+			);
+			path = Kernel;
+			sourceTree = "<group>";
+		};
+		3B6ACC773742A98A50D11B3D = {
+			isa = PBXGroup;
+			children = (
+				D574FEF715C544ABCBD4FACA /* FormaClube */,
+				B0FDAE052CC094A26CC33E88 /* FormaClubeUITests */,
+				679DD6417FD04B07989B041D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBAE7FC625B567722B7132C /* Stops */ = {
+			isa = PBXGroup;
+			children = (
+				71B89C6E4974D2A5C2E079D5 /* StopDetailScreen.swift */,
+				006C98A583893D45E6B8AD08 /* StopsScreen.swift */,
+			);
+			path = Stops;
+			sourceTree = "<group>";
+		};
+		4559CA8515D4F479CB8334A1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC4063FAD98826C7F94A32FF /* CTAButton.swift */,
+				BCBECE9C9A0A6607D0A4D9FC /* EmptyStateCard.swift */,
+				6003E9F2F2DBFBB2495C9784 /* FilterChip.swift */,
+				EE9EAE118AECF79A78C2C0DD /* InputControls.swift */,
+				0D12D8074CC3F0824EF13D0B /* Metrics.swift */,
+				983A0B395FEF41CCF51DB390 /* MetricTile.swift */,
+				67BB5FB436FE45FB0652D37F /* ResultCard.swift */,
+				6FF34EB182308AFB8EB1E105 /* Rows.swift */,
+				0319475CB377134F7A1E3ECE /* SafariPage.swift */,
+				79035CC1F790B3A02CFBC11C /* ScreenScaffold.swift */,
+				85F60E38F57DB1A5F7F4C318 /* SectionCard.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		679DD6417FD04B07989B041D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D0BE45374D69D3690836DC3 /* FormaClube.app */,
+				64158B2F28C30BF4971B8B1E /* FormaClubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69AE2B9E5D19037DC83D18AA /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				462F756E44F07690D8A4E246 /* VehicleScreen.swift */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		69C77618FE7E16BB693973C6 /* Handling */ = {
+			isa = PBXGroup;
+			children = (
+				DDCF3ED5DF647459A8B36933 /* HandlingScreen.swift */,
+			);
+			path = Handling;
+			sourceTree = "<group>";
+		};
+		78214B6979E0A4AD052A834D /* Spot */ = {
+			isa = PBXGroup;
+			children = (
+				0DB00FAB48B76D898781F4A1 /* SpotScreen.swift */,
+			);
+			path = Spot;
+			sourceTree = "<group>";
+		};
+		897D85DC0C9F7356BB53577A /* Door */ = {
+			isa = PBXGroup;
+			children = (
+				C098C03E5BD35C8C5773A77A /* DoorScreen.swift */,
+			);
+			path = Door;
+			sourceTree = "<group>";
+		};
+		8E451EE90B1E710E209FA5BA /* Chassis */ = {
+			isa = PBXGroup;
+			children = (
+				EA4D34B5A0098545FCEF916B /* FieldReadout.swift */,
+			);
+			path = Chassis;
+			sourceTree = "<group>";
+		};
+		9900E1577A958296FA244DAF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0F288E3C17D18C4861D49 /* AppBackground.swift */,
+				88773630681C45BFE21D5816 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A425782206DF4FE845D7FDDF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C915AE80276A8B346693C891 /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A60A60ADD3BC00514ED77B11 /* Cargo */ = {
+			isa = PBXGroup;
+			children = (
+				17D98C2DFFB2F03F665ADF9D /* CargoScreen.swift */,
+			);
+			path = Cargo;
+			sourceTree = "<group>";
+		};
+		B0FDAE052CC094A26CC33E88 /* FormaClubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA6FEECFDD011A0B33F871 /* CriticalPathSmokeTests.swift */,
+				294FAD358A654B5E1BA7AF9D /* SmokeUITests.swift */,
+			);
+			path = FormaClubeUITests;
+			sourceTree = "<group>";
+		};
+		B525989D63C5C4BE899B8948 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				3D52C90355E3C2A9FECFDBF9 /* ModuleCheckScreen.swift */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		BCDB2625F637700A389CC3BB /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				8C70964E3863A45175E93747 /* PieceDetailScreen.swift */,
+				82E14399467471D121AB09CC /* PiecesScreen.swift */,
+			);
+			path = Pieces;
+			sourceTree = "<group>";
+		};
+		C741F21A67C9795E8714095D /* Stair */ = {
+			isa = PBXGroup;
+			children = (
+				E0E1CB05A609A09986A45E7C /* StairScreen.swift */,
+			);
+			path = Stair;
+			sourceTree = "<group>";
+		};
+		CB6E0DC1C1DD7267D89374B8 /* Rich */ = {
+			isa = PBXGroup;
+			children = (
+				0CF41C817BC64638E8D1D92D /* MasonryGrid.swift */,
+				ECC1A7CBF420B5EB8FCB1767 /* MotionChrome.swift */,
+				E903A974119E484E74A935DB /* OnboardingPager.swift */,
+				897375326AABAE5F2A4DBEA6 /* ParallaxHeader.swift */,
+			);
+			path = Rich;
+			sourceTree = "<group>";
+		};
+		D56687EF1B4D6588347B7EC5 /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				95F3C8287FCFED21186E66E5 /* CompareScreen.swift */,
+			);
+			path = Compare;
+			sourceTree = "<group>";
+		};
+		D574FEF715C544ABCBD4FACA /* FormaClube */ = {
+			isa = PBXGroup;
+			children = (
+				B49C756E120384CFB217A85A /* Assets.xcassets */,
+				E6240423FC03E884D99CC24F /* FormaClubeApp.swift */,
+				A145EB3DB18CEF9779B645E0 /* Legal.swift */,
+				DECA8E71F481BB1F0781FC7A /* App */,
+				8E451EE90B1E710E209FA5BA /* Chassis */,
+				1203F7459CB81406AEBBD2BD /* Features */,
+				247BD0E1EC75B9AE2890FE34 /* Kernel */,
+				CB6E0DC1C1DD7267D89374B8 /* Rich */,
+				4559CA8515D4F479CB8334A1 /* Shared */,
+				9900E1577A958296FA244DAF /* Theme */,
+			);
+			path = FormaClube;
+			sourceTree = "<group>";
+		};
+		DECA8E71F481BB1F0781FC7A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4A6BAF46EE75612A0B1B5ECC /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E4366FACB6E8F1316BB2AE37 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				11B5704E6EA7E062CB97D978 /* RouteScreen.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		EAB97350AF528BDE3D925E7C /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				615FF8E56D6CCFEA65DCF5BE /* ExportScreen.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		F5090A9982A32E87B1DD85B6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2AF63110F76AFE3A1950F1C5 /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FDACB32E9E9CDB41E3CFCC /* FormaClubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F43F2E09E9CA9EB0BC6584 /* Build configuration list for PBXNativeTarget "FormaClubeUITests" */;
+			buildPhases = (
+				9D35F4CA31A71A5D817EFB16 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EC5BCA107ED4BE52E88A9F2 /* PBXTargetDependency */,
+			);
+			name = FormaClubeUITests;
+			packageProductDependencies = (
+			);
+			productName = FormaClubeUITests;
+			productReference = 64158B2F28C30BF4971B8B1E /* FormaClubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		680D9624EF027DE66431DDC8 /* FormaClube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD88DDFE74AC7399F061398E /* Build configuration list for PBXNativeTarget "FormaClube" */;
+			buildPhases = (
+				3ADEBFD25172826DDDB30186 /* Sources */,
+				679B6C92720A57353E20FEEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormaClube;
+			packageProductDependencies = (
+			);
+			productName = FormaClube;
+			productReference = 7D0BE45374D69D3690836DC3 /* FormaClube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B451640D1ED497EB140F00E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					07FDACB32E9E9CDB41E3CFCC = {
+						DevelopmentTeam = Q7N4M8H2WK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 680D9624EF027DE66431DDC8;
+					};
+					680D9624EF027DE66431DDC8 = {
+						DevelopmentTeam = Q7N4M8H2WK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65D3232E07C4639478519641 /* Build configuration list for PBXProject "FormaClube" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3B6ACC773742A98A50D11B3D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 679DD6417FD04B07989B041D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680D9624EF027DE66431DDC8 /* FormaClube */,
+				07FDACB32E9E9CDB41E3CFCC /* FormaClubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		679B6C92720A57353E20FEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ED174C3A9DDA6698BED47D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADEBFD25172826DDDB30186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD55D845AEBA20AB2E9C662 /* AppBackground.swift in Sources */,
+				7A901A835FE915624B6B955A /* AppTheme.swift in Sources */,
+				878D56B9C06DA2A91E6A2034 /* CTAButton.swift in Sources */,
+				5AEB3308F8E1EDD46845B38D /* CargoScreen.swift in Sources */,
+				17176F4FDCAD5F00851787EE /* CompareScreen.swift in Sources */,
+				01D98FEDEA7D23B24BDF9B51 /* DoorScreen.swift in Sources */,
+				6289F48C532FCABE8AE9E3AC /* EmptyStateCard.swift in Sources */,
+				36E629D0D981E5E567E0BBE4 /* ExportScreen.swift in Sources */,
+				5FE3E9A41CCA39FF1D3E3F41 /* FieldReadout.swift in Sources */,
+				5A441924B5D788200EDC9B5D /* FilterChip.swift in Sources */,
+				C9D1FA110862F37DCECB007C /* FitAssembly.swift in Sources */,
+				CF416E4EDFB643DC9ED63962 /* FitCarry.swift in Sources */,
+				8FDC6FB8422D7AECAD68DE73 /* FitEngine.swift in Sources */,
+				721331B0110659F8A04DC22C /* FitHandling.swift in Sources */,
+				D55F6773D64A850E0DDB18A5 /* FitMatrix.swift in Sources */,
+				FBAE45A237A3233674498A08 /* FitPacker.swift in Sources */,
+				62C8C24DABFA2A48570EBB5D /* FitQuestions.swift in Sources */,
+				7D52FC6EAF7CF5E668EB62DC /* FitSeed.swift in Sources */,
+				7BC0FF2C60E2CF7C0829213E /* FitStore.swift in Sources */,
+				A05E4778DC62FC7D4F626962 /* FitTypes.swift in Sources */,
+				E9734EB9270748F91FC47228 /* FitWorksheets.swift in Sources */,
+				D70203FC35C9E55232776AE0 /* FormaClubeApp.swift in Sources */,
+				49FAA9AE80140B84CE878583 /* FormsScreen.swift in Sources */,
+				B7D0FC384D4986FE4B44C1C9 /* HandlingScreen.swift in Sources */,
+				7E069D954D5598732C70830A /* InputControls.swift in Sources */,
+				4280AD8429F877D1E0D0438D /* Legal.swift in Sources */,
+				6A9C4B5D5532BF22FFA8A51B /* LoadPlanScreen.swift in Sources */,
+				186FE9130C216D15877CE54F /* MasonryGrid.swift in Sources */,
+				A1EA5A967AE689B6492E48E6 /* MetricTile.swift in Sources */,
+				E61A5EEA106985EF55BECEFF /* Metrics.swift in Sources */,
+				2E34322EB4A3BA184FEA4CFA /* ModuleCheckScreen.swift in Sources */,
+				E02BED453FED438242773769 /* MotionChrome.swift in Sources */,
+				FDC090572E3CF748998E3151 /* OnboardingPager.swift in Sources */,
+				A553C58CF2646C73075F96B7 /* OnboardingScreen.swift in Sources */,
+				B7A37A3E7DB076790C7E2AE9 /* ParallaxHeader.swift in Sources */,
+				FE15C8EFB595244104C12907 /* PieceDetailScreen.swift in Sources */,
+				873E81635F2CD28597EEA16A /* PiecesScreen.swift in Sources */,
+				D3D206D19D90918DE52BEA63 /* ResultCard.swift in Sources */,
+				5E31115A8F447BA9E84DEC54 /* RootView.swift in Sources */,
+				3F040BC645A57135924B5B90 /* RouteScreen.swift in Sources */,
+				08FCCEECEF4027D8B982207B /* Rows.swift in Sources */,
+				C5750B159AC84162DBE0CC7A /* SafariPage.swift in Sources */,
+				9BBD8E19310ACC82DE6DF752 /* ScreenScaffold.swift in Sources */,
+				53017E6E15DBF78EB6A4CE99 /* SectionCard.swift in Sources */,
+				FF6FE19467C3EA365538ED78 /* SettingsScreen.swift in Sources */,
+				010B4B2DA2B57A43317AC100 /* SpotScreen.swift in Sources */,
+				E8F178E5F70A7B84D35CB245 /* StairScreen.swift in Sources */,
+				5ADE81F75DAF2B33BE08D2FA /* StopDetailScreen.swift in Sources */,
+				90806ED511AD275A14E32569 /* StopsScreen.swift in Sources */,
+				3D13C963AEF6956C8680D233 /* TurnScreen.swift in Sources */,
+				093E2AD12FEE49E50680B05B /* VehicleScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D35F4CA31A71A5D817EFB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0656F3E37B1BBD9289785065 /* CriticalPathSmokeTests.swift in Sources */,
+				9EBF976D6DAEAE8048B0749E /* SmokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EC5BCA107ED4BE52E88A9F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680D9624EF027DE66431DDC8 /* FormaClube */;
+			targetProxy = 2085A295698DE57E466908AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11F42E3F8BCABED9ACCEAC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = Q7N4M8H2WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.formaclube.FormaClube.uitests;
+				PRODUCT_MODULE_NAME = FormaClubeUITests;
+				PRODUCT_NAME = FormaClubeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FormaClube;
+			};
+			name = Release;
+		};
+		166793C689030393C371E00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = Q7N4M8H2WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.formaclube.FormaClube.uitests;
+				PRODUCT_MODULE_NAME = FormaClubeUITests;
+				PRODUCT_NAME = FormaClubeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FormaClube;
+			};
+			name = Debug;
+		};
+		A480948848469C1908CDBE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q7N4M8H2WK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FormaClube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formaclube.FormaClube;
+				PRODUCT_NAME = FormaClube;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A4C0834C4B57CE08956C7F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/FormaClube.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q7N4M8H2WK;
+				INFOPLIST_FILE = FormaClube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FormaClube;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.formaclube.FormaClube;
+				PRODUCT_DISPLAY_NAME = FormaClube;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D21F3487B57AC25DFC3A468F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/FormaClube.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q7N4M8H2WK;
+				INFOPLIST_FILE = FormaClube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FormaClube;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.formaclube.FormaClube;
+				PRODUCT_DISPLAY_NAME = FormaClube;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F0512A4B432E2891643537F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q7N4M8H2WK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FormaClube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formaclube.FormaClube;
+				PRODUCT_NAME = FormaClube;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D3232E07C4639478519641 /* Build configuration list for PBXProject "FormaClube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0512A4B432E2891643537F4 /* Debug */,
+				A480948848469C1908CDBE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD88DDFE74AC7399F061398E /* Build configuration list for PBXNativeTarget "FormaClube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21F3487B57AC25DFC3A468F /* Debug */,
+				A4C0834C4B57CE08956C7F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5F43F2E09E9CA9EB0BC6584 /* Build configuration list for PBXNativeTarget "FormaClubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166793C689030393C371E00C /* Debug */,
+				11F42E3F8BCABED9ACCEAC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B451640D1ED497EB140F00E /* Project object */;
+}

@@ -1,0 +1,6 @@
+status: pass
+device: "iPhone 17 Pro Max"
+ran_at: "2026-09-21T21:59:27Z"
+screenshots: 7
+test: "FormaClubeUITests/SmokeUITests/testReviewerWalkthrough"
+critical_path: "pass"

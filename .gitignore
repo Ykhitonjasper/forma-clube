@@ -1,0 +1,6 @@
+DerivedData/
+DerivedDataDevice/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+legal/.wrangler/

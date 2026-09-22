@@ -1,0 +1,25 @@
+{
+  "target_name": "FormaClube",
+  "steps": [
+    {
+      "sequence": 1,
+      "tap_id": "smoke.route.openDoor",
+      "assert_id": "smoke.door.readout"
+    },
+    {
+      "sequence": 2,
+      "tap_id": "smoke.door.save",
+      "assert_id": "smoke.door.savedMark"
+    },
+    {
+      "sequence": 3,
+      "tap_id": "smoke.route.openTurn",
+      "assert_id": "smoke.turn.readout"
+    },
+    {
+      "sequence": 4,
+      "tap_id": "smoke.turn.save",
+      "assert_id": "smoke.turn.savedMark"
+    }
+  ]
+}

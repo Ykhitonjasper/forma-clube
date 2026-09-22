@@ -1,0 +1,311 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project FormaClube.xcodeproj -scheme FormaClube -destination "platform=iOS Simulator,id=1AFE207B-69A8-43CB-BAA3-2F60B15B1442" -derivedDataPath ./DerivedData build
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'FormaClube' in project 'FormaClube' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/SDKStatCaches.noindex/iphonesimulator26.4-23E237-686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -o /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/SDKStatCaches.noindex/iphonesimulator26.4-23E237-686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache
+
+SwiftDriver FormaClube normal arm64 com.apple.xcode.tools.swift.compiler (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name FormaClube -Onone @/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/SDKStatCaches.noindex/iphonesimulator26.4-23E237-686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube_const_extract_protocols.json -Xcc -iquote -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-generated-files.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-own-target-headers.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-all-target-headers.hmap -Xcc -iquote -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-project-headers.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources-normal/arm64 -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources/arm64 -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube-Swift.h -working-directory /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ FitStore.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Kernel/FitStore.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Kernel/FitStore.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ PieceDetailScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Pieces/PieceDetailScreen.swift (in target 'FormaClube' from project 'FormaClube')
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Pieces/PieceDetailScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ ExportScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Export/ExportScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Export/ExportScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ FormaClube (in target 'FormaClube' from project 'FormaClube')
+
+EmitSwiftModule normal arm64 (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ RouteScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Route/RouteScreen.swift (in target 'FormaClube' from project 'FormaClube')
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Route/RouteScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ StopsScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Stops/StopsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Stops/StopsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ StopDetailScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Stops/StopDetailScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Stops/StopDetailScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ PiecesScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Pieces/PiecesScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Pieces/PiecesScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling ExportScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PiecesScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling StopDetailScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling StopsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 Compiling\ CompareScreen.swift,\ DoorScreen.swift,\ EmptyStateCard.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Compare/CompareScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Door/DoorScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/EmptyStateCard.swift (in target 'FormaClube' from project 'FormaClube')
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Compare/CompareScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Door/DoorScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/EmptyStateCard.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ OnboardingScreen.swift,\ ResultCard.swift,\ RootView.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Onboarding/OnboardingScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/ResultCard.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/App/RootView.swift (in target 'FormaClube' from project 'FormaClube')
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Onboarding/OnboardingScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/ResultCard.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/App/RootView.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ HandlingScreen.swift,\ InputControls.swift,\ LoadPlanScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Handling/HandlingScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/InputControls.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Load/LoadPlanScreen.swift (in target 'FormaClube' from project 'FormaClube')
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Handling/HandlingScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/InputControls.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Load/LoadPlanScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ MetricTile.swift,\ Metrics.swift,\ ModuleCheckScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/MetricTile.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/Metrics.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Check/ModuleCheckScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/MetricTile.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/Metrics.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Check/ModuleCheckScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ TurnScreen.swift,\ VehicleScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Turn/TurnScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Vehicle/VehicleScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Turn/TurnScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Vehicle/VehicleScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ AppBackground.swift,\ CTAButton.swift,\ CargoScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Theme/AppBackground.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/CTAButton.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Cargo/CargoScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Theme/AppBackground.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/CTAButton.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Cargo/CargoScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 Compiling\ SpotScreen.swift,\ StairScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Spot/SpotScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Stair/StairScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Spot/SpotScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Stair/StairScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for FormaClube (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriver\ Compilation\ Requirements FormaClube normal arm64 com.apple.xcode.tools.swift.compiler (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name FormaClube -Onone @/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/SDKStatCaches.noindex/iphonesimulator26.4-23E237-686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube_const_extract_protocols.json -Xcc -iquote -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-generated-files.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-own-target-headers.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-all-target-headers.hmap -Xcc -iquote -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-project-headers.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources-normal/arm64 -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources/arm64 -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube-Swift.h -working-directory /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling FitStore.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 Compiling\ Rows.swift,\ ScreenScaffold.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/Rows.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/ScreenScaffold.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/Rows.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/ScreenScaffold.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+Copy /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftsourceinfo (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftsourceinfo /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling PieceDetailScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 Compiling\ FormaClubeApp.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/FormaClubeApp.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/FormaClubeApp.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+Copy /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftmodule (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftmodule /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+SwiftDriverJobDiscovery normal arm64 Compiling RouteScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+Copy /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.abi.json (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.abi.json /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+SwiftCompile normal arm64 Compiling\ SectionCard.swift,\ SettingsScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/SectionCard.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Settings/SettingsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/SectionCard.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Settings/SettingsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling FormaClubeApp.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftCompile normal arm64 Compiling\ FieldReadout.swift,\ FilterChip.swift,\ FormsScreen.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Chassis/FieldReadout.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/FilterChip.swift /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Forms/FormsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Chassis/FieldReadout.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Shared/FilterChip.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftCompile normal arm64 /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/FormaClube/Features/Forms/FormsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling TurnScreen.swift, VehicleScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SpotScreen.swift, StairScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling CompareScreen.swift, DoorScreen.swift, EmptyStateCard.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppBackground.swift, CTAButton.swift, CargoScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling Rows.swift, ScreenScaffold.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling OnboardingScreen.swift, ResultCard.swift, RootView.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SectionCard.swift, SettingsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling MetricTile.swift, Metrics.swift, ModuleCheckScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling HandlingScreen.swift, InputControls.swift, LoadPlanScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriverJobDiscovery normal arm64 Compiling FieldReadout.swift, FilterChip.swift, FormsScreen.swift (in target 'FormaClube' from project 'FormaClube')
+
+SwiftDriver\ Compilation FormaClube normal arm64 com.apple.xcode.tools.swift.compiler (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name FormaClube -Onone @/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/SDKStatCaches.noindex/iphonesimulator26.4-23E237-686eebb5dc1d8ecb277353a59184f4aa.sdkstatcache -output-file-map /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube_const_extract_protocols.json -Xcc -iquote -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-generated-files.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-own-target-headers.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-all-target-headers.hmap -Xcc -iquote -Xcc /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-project-headers.hmap -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources-normal/arm64 -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources/arm64 -Xcc -I/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube-Swift.h -working-directory /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube.debug.dylib normal (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -O0 -L/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.LinkFileList -install_name @rpath/FormaClube.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.swiftmodule @/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -Xlinker -no_adhoc_codesign -o /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-ExecutorLinkFileList-normal-arm64.txt (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    construct-stub-executor-link-file-list /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'FormaClube' from project 'FormaClube')
+
+Ld /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube normal (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk -O0 -L/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube-ExecutorLinkFileList-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube.app-Simulated.xcent.der /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube
+
+CopySwiftLibs /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube.debug.dylib --scan-folder /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/Frameworks --scan-folder /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/PlugIns --scan-folder /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/SystemExtensions --scan-folder /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+ExtractAppIntentsMetadata (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name FormaClube --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.4.sdk --xcode-version 17E192 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.formaclube.FormaClube --output /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube --dependency-file /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube_dependency_info.dat --stringsdata-file /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.SwiftFileList --metadata-file-list /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube.DependencyMetadataFileList --static-metadata-file-list /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube.DependencyStaticMetadataFileList --swift-const-vals-list /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/Objects-normal/arm64/FormaClube.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-09-22 01:37:32.918 appintentsmetadataprocessor[89368:8402983] Starting appintentsmetadataprocessor export
+2026-09-22 01:37:32.921 appintentsmetadataprocessor[89368:8402983] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CodeSign /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube.debug.dylib (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/FormaClube.debug.dylib
+
+CodeSign /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/__preview.dylib (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/__preview.dylib
+/Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app/__preview.dylib: replacing existing signature
+
+CodeSign /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Intermediates.noindex/FormaClube.build/Debug-iphonesimulator/FormaClube.build/FormaClube.app.xcent --timestamp\=none --generate-entitlement-der /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app
+
+Validate /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app (in target 'FormaClube' from project 'FormaClube')
+    cd /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube
+    builtin-validationUtility /Users/leo/iosDev/series-2026-q3/2026-09-21-FormaClube/DerivedData/Build/Products/Debug-iphonesimulator/FormaClube.app -shallow-bundle -infoplist-subpath Info.plist
+
+** BUILD SUCCEEDED **
+
