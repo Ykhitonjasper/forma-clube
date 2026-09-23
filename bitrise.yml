@@ -18,7 +18,7 @@ app:
     BITRISE_SCHEME: FormaClube
   - opts:
       is_expand: false
-    BUNDLE_ID: com.formaclube.FormaClube
+    BUNDLE_ID: com.merinsylas.FormaClube
   - opts:
       is_expand: true
     ASC_APP_ID: "$ASC_APP_ID"
@@ -79,7 +79,7 @@ workflows:
         - distribution_method: app-store
         - project_path: "$BITRISE_PROJECT_PATH"
         - scheme: "$BITRISE_SCHEME"
-        - apple_team_id: "Q7N4M8H2WK"
+        - apple_team_id: "Z277NR45Q9"
         - api_key_issuer_id: "$APPLE_API_ISSUER_ID"
         - api_key_id: "$APPLE_API_KEY_ID"
         - api_key_path: "$APPLE_API_KEY_PATH"
@@ -96,9 +96,9 @@ workflows:
         - api_issuer: "$APPLE_API_ISSUER_ID"
         - api_key_path: "$APPLE_API_KEY_URL"
         - ipa_path: "$BITRISE_IPA_PATH"
-        - app_id: "$ASC_APP_ID"
+        - app_id: "6815186137"
         - bundle_id: "$BUNDLE_ID"
         - skip_metadata: "yes"
         - skip_screenshots: "yes"
         - submit_for_review: "no"
-        - team_id: "Q7N4M8H2WK"
+        - team_id: "Z277NR45Q9"

@@ -3,8 +3,9 @@ app_folder: "2026-09-21-FormaClube"
 target_name: "FormaClube"
 app_name: "FormaClube"
 slug: "forma-clube"
-bundle_id: com.formaclube.FormaClube
-development_team: "Q7N4M8H2WK"
+ship_profile: UK_vis_web_2_RooTrack
+bundle_id: com.merinsylas.FormaClube
+development_team: "Z277NR45Q9"
 series_root: "/Users/leo/iosDev/series-2026-q3"
 niche_id: "niche-039"
 audience: "people picking up furniture who need to know if one piece clears the door, the stair, and the van"
