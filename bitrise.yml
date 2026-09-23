@@ -21,9 +21,6 @@ app:
     BUNDLE_ID: com.merinsylas.FormaClube
   - opts:
       is_expand: true
-    ASC_APP_ID: "$ASC_APP_ID"
-  - opts:
-      is_expand: true
     APPLE_API_KEY_ID: "$APPLE_API_KEY_ID"
   - opts:
       is_expand: true
@@ -45,7 +42,6 @@ workflows:
   app_store:
     description: XcodeGen → archive → upload IPA to App Store Connect (UK Fis / FormaClube).
     steps:
-    - activate-ssh-key@4: {}
     - git-clone@8: {}
     - brew-install@1:
         inputs:
